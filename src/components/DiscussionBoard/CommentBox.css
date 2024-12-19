@@ -1,0 +1,33 @@
+.comment-box {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .comment-box__header {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .comment-box__editor {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .comment-box__button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .comment-box__button:hover {
+    background-color: #0056b3;
+  }
+  

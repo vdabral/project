@@ -1,0 +1,53 @@
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .comment-form__label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .comment-form__textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .comment-form__textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .comment-form__error {
+    color: red;
+    font-size: 0.9rem;
+  }
+  
+  .comment-form__button {
+    align-self: flex-end;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .comment-form__button:hover:not([disabled]) {
+    background-color: #0056b3;
+  }
+  
+  .comment-form__button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
